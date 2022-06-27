@@ -1,9 +1,14 @@
 {
-  "editor.formatOnPaste": true,
+  "files.exclude": {
+    "**/.next": true
+  },
+  "cSpell.words": ["clsx"],
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "search.exclude": {
+    "**/node_modules": true
+  },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.format": true
+    "source.fixAll.eslint": true
   }
 }
